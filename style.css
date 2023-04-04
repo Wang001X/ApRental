@@ -1,0 +1,86 @@
+.btn-custom {
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: #d57928;
+  padding: 8px 10px;
+}
+
+.bg-orange-light {
+  background-color: #ffead6;
+}
+.bg-orange {
+  background-color: #d57928;
+}
+
+.sharp-btn {
+  padding: 5px 10px;
+  background-color: #d57928;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.rating label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("./assets/start.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating input[type="radio"]:checked + label {
+  background-image: url("./assets/goldenstar.png");
+}
+
+a {
+  text-decoration: none;
+}
+button > a {
+  color: white;
+}
+button > a:hover {
+  color: white;
+}
+.message {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  text-align: right;
+}
+
+.user-message .badge {
+  background-color: #007bff;
+}
+
+.bot-message {
+  text-align: left;
+}
+
+.bot-message .badge {
+  background-color: #6c757d;
+}
+
+.left-section {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+.right-section {
+  margin-top: 100px;
+}
+.btn-google {
+  background-color: #ea4335;
+  color: #fff;
+}
+.btn-google:hover {
+  background-color: #d62c1f;
+  color: #fff;
+}
